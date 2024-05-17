@@ -44,6 +44,11 @@ form .input-box {
   margin: 12px 0;
 }
 
+.field.error .item{
+  border-color: red;
+}
+
+
 .field .item::placeholder {
   color: rgb(255, 255, 0.3);
 }
@@ -54,6 +59,10 @@ form .input-box {
   text-align: left;
   margin: -5px 0 10px;
   display: none;
+}
+
+.field.error  .error-txt{
+  display: block;
 }
 
 form .textarea-field .item {
@@ -70,8 +79,9 @@ form button {
   border: none;
   outline: none;
   border-radius: 6px;
-  box-shadow: 0 0 11px;
+  box-shadow: 0 0 11px #0ef;
   font-size: 16px;
+  letter-spacing: 1px;
   color: #333;
   font-weight: 600;
   cursor: pointer;
