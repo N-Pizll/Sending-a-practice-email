@@ -12,7 +12,7 @@ const bodyMessage = `Full Name :${fullName.value}<br> Email${email.value}<br> ph
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "ladi2252.nn@gmail.com",
-        Password : "73E8C0A22A7808315ED2FE00B83FD3258FD4",
+        Password : "",
         To : 'ladi2252.nn@gmail.com',
         From : "ladi2252.nn@gmail.com",
         Subject : subject.value,
